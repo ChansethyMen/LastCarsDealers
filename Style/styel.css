@@ -1,0 +1,90 @@
+body {
+  font-family: AKbalthom SuperheroKH;
+  font-size: 16px;
+  background: conic-gradient(
+    from 0.25turn at 50% 30%,
+    #f69d3c,
+    10deg,
+    #3f87a6,
+    350deg,
+    #ebf8e1
+  );
+}
+header {
+  border: 0px solid red;
+  background-color: #e0dcd1;
+  border-radius: 20px;
+}
+
+.box {
+  border: 0px solid blue;
+  border-radius: 30px;
+}
+.nav-item :hover {
+  color: white;
+  background-color: #8c8c8c;
+  border-radius: 5px;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  justify-content: end;
+}
+.carousel {
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+h5 {
+  color: white;
+  text-shadow: 0px 10px 5px black;
+  font-size: 75px;
+}
+.col{
+  filter: drop-shadow(0 0 0.75rem crimson);
+
+}
+.script {
+  color: red;
+  font-size: 22px;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: white;
+  text-shadow: 0px 2px 1px black;
+}
+.btn-outline-success {
+  border-color: black;
+  color: black;
+}
+.btn-outline-success:hover {
+  background-color: #8c8c8c;
+  border-color: green;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+h3 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.addToCard {
+  margin: 10px;
+}
+.card-text {
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-center {
+  font-size: 18px;
+}
